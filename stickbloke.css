@@ -1,0 +1,117 @@
+div div {
+	position:relative;
+    border: 2px solid black
+}
+
+#man {
+    margin: 0 auto;
+    height: 500px;
+    width: 250px;
+}
+
+
+#head {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    left: 60px;
+    border-width: 4px;
+}
+
+.eye {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#leye{
+    left: 35px;
+    top: 30px;
+}
+
+#reye{
+    left: 75px;
+    top: 30px;
+}
+
+#mouth {
+    top: 80px;
+left: 13px;
+border-radius: 0 0 90px 90px;
+width: 100px;
+height: 10px;
+}
+
+#body {
+    height: 200px;
+    width: 0px;
+    margin-left: 125px;
+}
+
+.limb {
+    width: 130px;
+    position: absolute;
+}
+
+#larm{
+    top: 43px;
+    left: -126px;
+    transform:rotate(30deg);
+}
+
+#man:hover #larm{
+    transform: rotate(-30deg);
+    top: 105px;
+}
+
+#rarm{
+    top: 43px;
+    left: -8px;
+    transform:rotate(-30deg)
+}
+
+#man:hover #rarm{
+    transform: rotate(30deg);
+    top: 105px;
+}
+
+#lleg{
+    top: 245px;
+    left: -115px;
+    transform:rotate(-45deg)
+}
+
+#rleg {
+    top: 245px;
+    left: -20px;
+    transform:rotate(45deg)
+}
+
+#hatbox {
+    height: 100px;
+    width: 250px;
+    margin: 100px auto 0 auto;
+}
+
+#hatbrim {
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    top: 100px;
+    left: 75px;
+}
+
+#hattop {
+    width: 88px;
+    height: 75px;
+    background-color: black;
+    left: 81px;
+    top: -3px;
+    border-radius: 90px 90px 0 0;
+
+}
+
+#hatbox:hover{
+	transform: rotate(5deg) translate(0, -40px);
+}
